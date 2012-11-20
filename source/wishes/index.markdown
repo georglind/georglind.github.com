@@ -30,6 +30,6 @@ DVDs
 Books
 -----
 
-"Course of Theoretical Physics" by Landau and Lifshitz, 10 volumes.
+* "Course of Theoretical Physics" by Landau and Lifshitz, 10 volumes.
 
 Or something nice. I'm sure that you can figure something out :)

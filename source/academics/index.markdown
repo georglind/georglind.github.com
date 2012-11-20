@@ -10,7 +10,7 @@ footer: true
 Publications
 ------------
 
-Allthough sparse here is a link to (my listing at arXiv.org](http://arxiv.org/a/pedersen_k_1.html).
+Allthough sparse here is a link to [my listing at arXiv.org](http://arxiv.org/a/pedersen_k_1.html).
 
 Work
 ----
@@ -24,14 +24,14 @@ Work
 
 ### 2007
 
-* BSc project on Multivortices in Abelian Higgs Models.
+* BSc project on "Multivortices in Abelian Higgs Models" ([pdf]({{ root_url }}/academics/KimGLPedersen-BScProject.pdf)).
 
 ### 2009
 
-*Master's Thesis on Poor Man's Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices.
-*[Antiferromagnetic noise correlations in optical lattices](http://pra.aps.org/abstract/PRA/v80/i3/e033622) ([arXiv](http://arxiv.org/abs/0907.0652). 
+* Master's Thesis on "Poor Man's Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices" ([pdf]({{ root_url }}/academics/KimGLPedersen-MScThesis.pdf)).  
+* [Antiferromagnetic noise correlations in optical lattices](http://pra.aps.org/abstract/PRA/v80/i3/e033622) ([arXiv](http://arxiv.org/abs/0907.0652)). 
 
 ### 2011
 
-*[Measuring spin correlations in optical lattices using superlattice potentials](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&v=2fb27bff) ([arXiv](http://arxiv.org/abs/1105.4466)).
-*[Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&v=6b2fc3c5) ([arXiv](http://arxiv.org/abs/1203.0925))
+* [Measuring spin correlations in optical lattices using superlattice potentials](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&v=2fb27bff) ([arXiv](http://arxiv.org/abs/1105.4466)).
+* [Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&v=6b2fc3c5) ([arXiv](http://arxiv.org/abs/1203.0925)).
