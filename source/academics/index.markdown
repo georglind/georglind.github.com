@@ -34,4 +34,7 @@ Work
 ### 2011
 
 * [Measuring spin correlations in optical lattices using superlattice potentials](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&v=2fb27bff) ([arXiv](http://arxiv.org/abs/1105.4466)).
+
+### 2012
+
 * [Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&v=6b2fc3c5) ([arXiv](http://arxiv.org/abs/1203.0925)).
