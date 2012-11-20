@@ -3,7 +3,7 @@ layout: page
 title: "Wishes"
 date: 2012-11-20 19:43
 comments: false
-sharing: true
+sharing: false 
 footer: true
 ---
 
