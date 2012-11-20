@@ -29,6 +29,37 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- Mathjax config similar to math.stackexchange --> 
+
+<script type = "text / x-mathjax-config" > 
+  MathJax Hub Config ({of 
+    tex2jax :  { 
+      inlineMath to :  [  [ '$' , '$' ]  [ "\ \ ( \ \) " ]  ], 
+      processEscapes :  true 
+    } 
+  }); 
+</ script> 
+
+<script type = "text / x-mathjax-config" > 
+    MathJax Hub Config ({ 
+      tex2jax :  { 
+        skipTags :  [ 'script' ,  'noscript' ,  'style' ,  'textarea' ,  'pre' ,  'code' ] 
+      } 
+    }); 
+</ script> 
+
+<script type = "text / x-mathjax-config" > 
+    MathJax . Hub Queue ( function ()  { 
+        var  all  = to  MathJax . Hub getAllJax (),  i ; 
+        for ( i = 0 ;  i  <  all . length ;  i  + =  1 )  { 
+            all [ i ]. SourceElement (). parentNode . className  + =  'has-jax' ; 
+        } 
+    }); 
+</ script> 
+
+<script type = "text / javascript" 
+   src = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config to = the TeX-AMS-MML_HTMLorMML " > 
+</ script>
   
 
 </head>
@@ -133,7 +164,8 @@
   </div>
   <footer role="contentinfo"><p>
   Copyright &copy; 2012 - Kim G. L. Pedersen -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+  <span class="credit">hosted by <a href="https://github.com/georglind/georglind.github.com">GitHub</a></span>.
 </p>
 
 </footer>

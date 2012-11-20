@@ -30,6 +30,37 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- Mathjax config similar to math.stackexchange --> 
+
+<script type = "text / x-mathjax-config" > 
+  MathJax Hub Config ({of 
+    tex2jax :  { 
+      inlineMath to :  [  [ '$' , '$' ]  [ "\ \ ( \ \) " ]  ], 
+      processEscapes :  true 
+    } 
+  }); 
+</ script> 
+
+<script type = "text / x-mathjax-config" > 
+    MathJax Hub Config ({ 
+      tex2jax :  { 
+        skipTags :  [ 'script' ,  'noscript' ,  'style' ,  'textarea' ,  'pre' ,  'code' ] 
+      } 
+    }); 
+</ script> 
+
+<script type = "text / x-mathjax-config" > 
+    MathJax . Hub Queue ( function ()  { 
+        var  all  = to  MathJax . Hub getAllJax (),  i ; 
+        for ( i = 0 ;  i  <  all . length ;  i  + =  1 )  { 
+            all [ i ]. SourceElement (). parentNode . className  + =  'has-jax' ; 
+        } 
+    }); 
+</ script> 
+
+<script type = "text / javascript" 
+   src = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config to = the TeX-AMS-MML_HTMLorMML " > 
+</ script>
   
 
 </head>
@@ -86,11 +117,11 @@
 <time datetime="2012-11-20T20:02:00+01:00" pubdate data-updated="true">Nov 20<span>th</span>, 2012</time></p>
   </header>
   
-  <h2>Publications</h2>
+  <h2 id="publications">Publications</h2>
 
 <p>Allthough sparse here is a link to <a href="http://arxiv.org/a/pedersen_k_1.html">my listing at arXiv.org</a>.</p>
 
-<h2>Work</h2>
+<h2 id="work">Work</h2>
 
 <!--
 2003- During my senior year in high school I wrote a major report on the subject of Introductory Quantum Mechanics.
@@ -99,29 +130,25 @@
 2007- Notes on The Philosophy of Science for the course VtMat.
 -->
 
-
-<h3>2007</h3>
-
-<ul>
-<li>BSc project on &#8220;Multivortices in Abelian Higgs Models&#8221; (<a href="/academics/KimGLPedersen-BScProject.pdf">pdf</a>).</li>
-</ul>
-
-
-<h3>2009</h3>
+<h3 id="section">2007</h3>
 
 <ul>
-<li>Master&#8217;s Thesis on &#8220;Poor Man&#8217;s Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices&#8221; (<a href="/academics/KimGLPedersen-MScThesis.pdf">pdf</a>).</li>
-<li><a href="http://pra.aps.org/abstract/PRA/v80/i3/e033622">Antiferromagnetic noise correlations in optical lattices</a> (<a href="http://arxiv.org/abs/0907.0652">arXiv</a>).</li>
+  <li>BSc project on “Multivortices in Abelian Higgs Models” (<a href="/academics/KimGLPedersen-BScProject.pdf">pdf</a>).</li>
 </ul>
 
-
-<h3>2011</h3>
+<h3 id="section-1">2009</h3>
 
 <ul>
-<li><a href="http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&amp;v=2fb27bff">Measuring spin correlations in optical lattices using superlattice potentials</a> (<a href="http://arxiv.org/abs/1105.4466">arXiv</a>).</li>
-<li><a href="http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&amp;v=6b2fc3c5">Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices</a> (<a href="http://arxiv.org/abs/1203.0925">arXiv</a>).</li>
+  <li>Master’s Thesis on “Poor Man’s Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices” (<a href="/academics/KimGLPedersen-MScThesis.pdf">pdf</a>).  </li>
+  <li><a href="http://pra.aps.org/abstract/PRA/v80/i3/e033622">Antiferromagnetic noise correlations in optical lattices</a> (<a href="http://arxiv.org/abs/0907.0652">arXiv</a>). </li>
 </ul>
 
+<h3 id="section-2">2011</h3>
+
+<ul>
+  <li><a href="http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&amp;v=2fb27bff">Measuring spin correlations in optical lattices using superlattice potentials</a> (<a href="http://arxiv.org/abs/1105.4466">arXiv</a>).</li>
+  <li><a href="http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&amp;v=6b2fc3c5">Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices</a> (<a href="http://arxiv.org/abs/1203.0925">arXiv</a>).</li>
+</ul>
 
   
     <footer>
@@ -200,7 +227,8 @@
   </div>
   <footer role="contentinfo"><p>
   Copyright &copy; 2012 - Kim G. L. Pedersen -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+  <span class="credit">hosted by <a href="https://github.com/georglind/georglind.github.com">GitHub</a></span>.
 </p>
 
 </footer>
