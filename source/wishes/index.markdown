@@ -19,7 +19,7 @@ Miscellaneous
 Computer
 --------
 
-* [A Microsoft Kinect](http://www.google.com/products/catalog?q=buy+kinect&hl=en&prmd=ivsun&resnum=1&biw=1280&bih=703&um=1&ie=UTF-8&cid=6853633111128295882&ei=ud8ITYeRK8aXOrzZlbEE&sa=X&oi=product_catalog_result&ct=result&resnum=1&ved=0CEsQ8wIwAA#) that is only the Kinect, no Xbox please (Dkr 1199)
+* [A Microsoft Kinect](http://www.google.com/products/catalog?q=buy+kinect&hl=en&prmd=ivsun&resnum=1&biw=1280&bih=703&um=1&ie=UTF-8&cid=6853633111128295882&ei=ud8ITYeRK8aXOrzZlbEE&sa=X&oi=product_catalog_result&ct=result&resnum=1&ved=0CEsQ8wIwAA#) that is only the Kinect, no Xbox please (DkK 1199).
 
 DVDs
 ----
@@ -31,5 +31,6 @@ Books
 -----
 
 * "Course of Theoretical Physics" by Landau and Lifshitz, 10 volumes.
+* "Jamies mad på 15 minutter" by Jamie Oliver (DKK 300).
 
 Or something nice. I'm sure that you can figure something out :)
