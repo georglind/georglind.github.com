@@ -15,11 +15,12 @@ Miscellaneous
 * Falke socks (42-43, normal thickness)
 * [Mood Mugs](http://store.yankodesign.com/all-products/mood-mugs) - by Yanko Design
 * Gift voucher for Spejdersport, Fjeld og Fritid or Friluftsland
+* A Cafetiere (must brew at least two mugs of coffee).
 
 Computer
 --------
 
-* [A Microsoft Kinect](http://www.google.com/products/catalog?q=buy+kinect&hl=en&prmd=ivsun&resnum=1&biw=1280&bih=703&um=1&ie=UTF-8&cid=6853633111128295882&ei=ud8ITYeRK8aXOrzZlbEE&sa=X&oi=product_catalog_result&ct=result&resnum=1&ved=0CEsQ8wIwAA#) that is only the Kinect, no Xbox please (DkK 1199).
+* [A Microsoft Kinect](http://www.google.com/products/catalog?q=buy+kinect&hl=en&prmd=ivsun&resnum=1&biw=1280&bih=703&um=1&ie=UTF-8&cid=6853633111128295882&ei=ud8ITYeRK8aXOrzZlbEE&sa=X&oi=product_catalog_result&ct=result&resnum=1&ved=0CEsQ8wIwAA#) that is only the Kinect, no Xbox please (DKK 1199).
 
 DVDs
 ----
