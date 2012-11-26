@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.georglind.dk/about/</loc>
+        <loc>http://georglind.github.dk/about/</loc>
         <lastmod>2012-11-20T20:23:48+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.georglind.dk/academics/</loc>
+        <loc>http://georglind.github.dk/academics/</loc>
         <lastmod>2012-11-20T22:15:03+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.georglind.dk/blog/archives/</loc>
+        <loc>http://georglind.github.dk/blog/archives/</loc>
         <lastmod>2012-11-20T17:42:57+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.georglind.dk/</loc>
+        <loc>http://georglind.github.dk/</loc>
         <lastmod>2012-11-20T17:42:57+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.georglind.dk/wishes/</loc>
+        <loc>http://georglind.github.dk/wishes/</loc>
         <lastmod>2012-11-25T13:53:36+01:00</lastmod>
     </url>
 </urlset>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[georglind.dk]]></title>
-  <link href="http://www.georglind.dk/atom.xml" rel="self"/>
-  <link href="http://www.georglind.dk/"/>
-  <updated>2012-11-26T14:56:06+01:00</updated>
-  <id>http://www.georglind.dk/</id>
+  <link href="http://georglind.github.dk/atom.xml" rel="self"/>
+  <link href="http://georglind.github.dk/"/>
+  <updated>2012-11-26T14:58:25+01:00</updated>
+  <id>http://georglind.github.dk/</id>
   <author>
     <name><![CDATA[Kim G. L. Pedersen]]></name>
     
