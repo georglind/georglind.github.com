@@ -22,11 +22,10 @@ Computer
 
 * [A Microsoft Kinect](http://www.google.com/products/catalog?q=buy+kinect&hl=en&prmd=ivsun&resnum=1&biw=1280&bih=703&um=1&ie=UTF-8&cid=6853633111128295882&ei=ud8ITYeRK8aXOrzZlbEE&sa=X&oi=product_catalog_result&ct=result&resnum=1&ved=0CEsQ8wIwAA#) that is only the Kinect, no Xbox please (DKK 1199).
 
+<!--
 DVDs
 ----
-
-* Some shows or music by Tim Minchin
-* [A Trip to the Moon](http://en.wikipedia.org/wiki/A_Trip_to_the_Moon) (1902) by George Méllès
+-->
 
 Books
 -----
