@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[georglind.dk]]></title>
-  <link href="http://georglind.github.dk/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Homespun philosophy | georglind.dk]]></title>
+  <link href="http://georglind.github.dk/blog/categories/homespun-philosophy/atom.xml" rel="self"/>
   <link href="http://georglind.github.dk/"/>
   <updated>2013-04-09T13:12:00+02:00</updated>
   <id>http://georglind.github.dk/</id>
@@ -35,7 +35,7 @@
 
 <p>Having started on this rather silly note… Allow me to contrast with a very serious picture of me:</p>
 
-<p><img class="center" src="http://georglind.github.dk/files/trashmonster.jpg" width="400" /></p>
+<p><img class="center" src="/files/trashmonster.jpg" width="400"></p>
 
 <p>I am a physicist by education, and the blood of the natural sciences runs deep in my veins. However, as a scout I have flirted quite a bit with project management, leadership and administration. </p>
 
