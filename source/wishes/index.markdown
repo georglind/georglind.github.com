@@ -12,10 +12,8 @@ In case anyone felt like giving me anything, I list my wishes here:
 Miscellaneous
 -------------
 
-* Falke socks (42-43, normal thickness)
-* [Mood Mugs](http://store.yankodesign.com/all-products/mood-mugs) - by Yanko Design
-* Gift voucher for Spejdersport, Fjeld og Fritid or Friluftsland
-* A Cafetiere (must brew at least two mugs of coffee).
+* [Mood Mugs](http://store.yankodesign.com/all-products/mood-mugs) (Cheeky Chappy n' Happy as Larry) - by Yanko Design
+* [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
 
 Computer
 --------
@@ -30,7 +28,7 @@ DVDs
 Books
 -----
 
+* "Food & Cooking - An encyclopedia of kitchen science, history and culture" by Harold McGee
 * "Course of Theoretical Physics" by Landau and Lifshitz, 10 volumes.
-* "Jamies mad på 15 minutter" by Jamie Oliver (DKK 300).
 
 Or something nice. I'm sure that you can figure something out :)

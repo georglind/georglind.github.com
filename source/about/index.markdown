@@ -35,9 +35,10 @@ Future work will also appear on [my listing at arXiv.org](http://arxiv.org/a/ped
 - "*Measuring spin correlations in optical lattices using superlattice potentials*". {[link](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E84%252E041603&v=2fb27bff), [arXiv](http://arxiv.org/abs/1105.4466)}
 
 #### 2009
-* Master's Thesis on "*Poor Man's Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices*". {[pdf]({{ root_url }}/academics/KimGLPedersen-MScThesis.pdf)}  
+* Master's Thesis on "*Poor Man's Scaling for the Nonequilibrium Kondo Problem and Antiferromagnetic Correlations in Optical Lattices*". {[pdf]({{ root_url }}/files/KimGLPedersen-MScThesis.pdf)}  
 * "*Antiferromagnetic noise correlations in optical lattices*". {[link](http://pra.aps.org/abstract/PRA/v80/i3/e033622), [arXiv](http://arxiv.org/abs/0907.0652)} 
 
 #### 2007
-* BSc project on "*Multivortices in Abelian Higgs Models*". {[pdf]({{ root_url }}/academics/KimGLPedersen-BScProject.pdf)}
+* BSc project on "*Multivortices in Abelian Higgs Models*". {[pdf]({{ root_url }}/files/KimGLPedersen-BScProject.pdf)}
+
 
