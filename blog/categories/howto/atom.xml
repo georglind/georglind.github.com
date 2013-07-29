@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: howto | georglind.dk]]></title>
+  <link href="http://georglind.github.dk/blog/categories/howto/atom.xml" rel="self"/>
+  <link href="http://georglind.github.dk/"/>
+  <updated>2013-07-29T18:36:17+02:00</updated>
+  <id>http://georglind.github.dk/</id>
+  <author>
+    <name><![CDATA[Kim G. L. Pedersen]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Improve your ssh-foo: Quick way to bridge multiple ssh-servers]]></title>
+    <link href="http://georglind.github.dk/blog/2013/07/29/improve-your-ssh-foo-how-to-seamlessly-cross-through-multiple-ssh-servers/"/>
+    <updated>2013-07-29T18:10:00+02:00</updated>
+    <id>http://georglind.github.dk/blog/2013/07/29/improve-your-ssh-foo-how-to-seamlessly-cross-through-multiple-ssh-servers</id>
+    <content type="html"><![CDATA[<p>While I work from my trustworthy Macbook Pro, everything in this tutorial should translate easily to any Unix-variant OS. </p>
+
+<p>This document explains how to access a ssh-enabled server by using another server as <strong>a bridge</strong>. This may be relevant if you must access server <strong>S2</strong>, say, in order to to carry out some calculations, but <strong>S2</strong> is only connected to a university network <strong>S1</strong>. From your home computer you would have to first ssh into <strong>S1</strong> and then ssh into <strong>S2</strong>. This quickly becomes messy, when you wish to do anything remotely complicated like transferring files between different machines.</p>
+
+<p>In the end of this tutorial you should be able to simply write <code>ssh S2</code>. And then end up immediately in <strong>S2</strong>. Similarly you can use any ssh-based technology like the terminal-based <code>scp S2:file .</code>, or drag-and-drop based solutions like MacFusion without ever thinking about the complicated to stage ssh-connection.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>The ssh program must of course be installed on both home computer and both servers, and publickey authentication must be enabled.</p>
+
+<p>You also need server names, usernames and passwords for both servers <strong>S1</strong> and <strong>S2</strong>.</p>
+
+<h2 id="set-up-password-less-login">Set up password-less login</h2>
+
+<p>Generate public keys on your home computer, by issuing the command:</p>
+
+<pre><code>ssh-keygen -t rsa
+</code></pre>
+
+<p>Leave everything blank. If you wish, you can generate different keys for logging into <strong>S1</strong> and <strong>S2</strong>, and in that case you should save the keys in different files likes <code>id1_rsa</code> and <code>id2_rsa.</code></p>
+
+<p>Move the generated keys to the server:</p>
+
+<pre><code>scp ~/.ssh/id_rsa.pub username1@S1:id_rsa.pub
+</code></pre>
+
+<p>Create the <code>.ssh</code> directory and append the key to the <code>authorized_keys</code> file.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>ssh username1@S1                            <span class="c"># access S1</span>
+</span><span class='line'>mkdir -p ~/.ssh                             <span class="c"># create .ssh directory</span>
+</span><span class='line'>touch ~/.ssh/authorized_keys                <span class="c"># create file</span>
+</span><span class='line'>chmod 644 ~/.ssh/authorized_keys            <span class="c"># give correct permissions</span>
+</span><span class='line'>cat id_rsa.pub » ~/.ssh/authorized_keys    <span class="c"># add public-key to file</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Repeat this procedure for <strong>S2</strong>, making sure to move the relevant files all the way through <strong>S1</strong> first.</p>
+
+<p>You should then be able to log in to <strong>S1</strong> from your home computer without using your password. Test that this work seamlessly before moving on.</p>
+
+<h2 id="on-your-computer">On your computer</h2>
+
+<p>Create <code>~/.ssh/config</code> file to manage your connections. In the config file you should put the following:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>Host S1nick
+</span><span class='line'>    Hostname S1
+</span><span class='line'>    port 22
+</span><span class='line'>    PreferredAuthentications publickey
+</span><span class='line'>    IdentityFile ~/.ssh/id1_rsa
+</span><span class='line'>    User username1&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;Host S2nick
+</span><span class='line'>    HostName S2
+</span><span class='line'>    port 22
+</span><span class='line'>    PreferredAuthentications publickey
+</span><span class='line'>    IdentityFile ~/.ssh/id2_rsa
+</span><span class='line'>    User username2
+</span><span class='line'>    ProxyCommand ssh -A S1nick nc %h %p
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+The variables <strong>S1nick</strong> and <strong>S2nick</strong> are some short nick names for the two servers. This is convenient because servernames tend to be long and tedious to type. If you are using a university network you could e.g. set <strong>S1nick</strong> to “uni” and <strong>S2nick</strong> to “calc”.</p>
+
+<p>Now you can access <strong>S1</strong> with the command</p>
+
+<pre><code>ssh S1nick
+</code></pre>
+
+<p>And server <strong>S2</strong> with,</p>
+
+<pre><code>ssh S2nick
+</code></pre>
+
+<p>Voila!</p>
+]]></content>
+  </entry>
+  
+</feed>
