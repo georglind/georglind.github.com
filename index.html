@@ -143,7 +143,10 @@
 </span><span class="line">cat id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys    <span class="c"># add public-key to file</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p>Repeat this procedure for <strong>S2</strong>, making sure to move the relevant files all the way through <strong>S1</strong> first.</p>
+<p>Repeat this procedure for <strong>S2</strong>, making sure to move the relevant files all the way through <strong>S1</strong> first. Remember to delete the <code>id_rsa.pub</code> file after you have added it to the <code>authorized_keys</code> file. </p>
+
+<pre><code>rm id_rsa.pub
+</code></pre>
 
 <p>You should then be able to log in to <strong>S1</strong> from your home computer without using your password. Test that this work seamlessly before moving on.</p>
 
