@@ -4,7 +4,7 @@
   <title><![CDATA[georglind.dk]]></title>
   <link href="http://georglind.github.dk/atom.xml" rel="self"/>
   <link href="http://georglind.github.dk/"/>
-  <updated>2013-10-05T13:15:42+02:00</updated>
+  <updated>2013-10-24T00:11:33+02:00</updated>
   <id>http://georglind.github.dk/</id>
   <author>
     <name><![CDATA[Kim G. L. Pedersen]]></name>
@@ -22,11 +22,11 @@
 
 <p>This document explains how to access a ssh-enabled server by using another server as <strong>a bridge</strong>. This may be relevant if you must access server <strong>S2</strong>, say, in order to to carry out some calculations, but <strong>S2</strong> is only connected to a university network <strong>S1</strong>. From your home computer you would have to first ssh into <strong>S1</strong> and then ssh into <strong>S2</strong>. This quickly becomes messy, when you wish to do anything remotely complicated like transferring files between different machines.</p>
 
-<p>In the end of this tutorial you should be able to simply write <code>ssh S2</code>. And then end up immediately in <strong>S2</strong>. Similarly you can use any ssh-based technology like the terminal-based <code>scp S2:file .</code>, or drag-and-drop based solutions like MacFusion without ever thinking about the complicated to stage ssh-connection.</p>
+<p>In the end of this tutorial you should be able to simply write <code>ssh S2</code>. And then end up immediately in <strong>S2</strong>. Similarly you can use any ssh-based technology like the terminal-based <code>scp S2:file .</code>, or drag-and-drop based solutions like MacFusion without ever thinking about the complicated two stage ssh-connection.</p>
 
 <h2 id="prerequisites">Prerequisites</h2>
 
-<p>The ssh program must of course be installed on both home computer and both servers, and publickey authentication must be enabled.</p>
+<p>The ssh program must of course be installed on your home computer and both servers, and publickey authentication must be enabled.</p>
 
 <p>You also need server names, usernames and passwords for both servers <strong>S1</strong> and <strong>S2</strong>.</p>
 
