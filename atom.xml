@@ -4,7 +4,7 @@
   <title><![CDATA[georglind.dk]]></title>
   <link href="http://georglind.github.dk/atom.xml" rel="self"/>
   <link href="http://georglind.github.dk/"/>
-  <updated>2013-10-24T00:11:33+02:00</updated>
+  <updated>2014-01-21T10:59:05+01:00</updated>
   <id>http://georglind.github.dk/</id>
   <author>
     <name><![CDATA[Kim G. L. Pedersen]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Molecules, Molecular Junctions, Quantum Interference in Transport and Quantum Pumping]]></title>
+    <link href="http://georglind.github.dk/blog/2014/01/21/phd-thesis-on-molecules/"/>
+    <updated>2014-01-21T10:41:00+01:00</updated>
+    <id>http://georglind.github.dk/blog/2014/01/21/phd-thesis-on-molecules</id>
+    <content type="html"><![CDATA[<p>Just recently I defended my PhD Thesis entitled “Theoretical Investigations Regarding Single Molecules”. The title is so generic because the thesis contains work in different fields: </p>
+
+<ul>
+  <li>An introduction to the PPP model (an extended Hubbard model) and the numerical solution using exact diagonalization.</li>
+  <li>Neoclassical Valence Bond Theory as an effective tool for calculating and describing molecular quantum states.</li>
+  <li>Another main topic of the thesis is transport through gated molecular junctions, including work on:
+    <ul>
+      <li>Quantum interference in transport through interacting electronic systems (e.g. molecules).</li>
+      <li>AFM and FM Kondo Effect in transport through molecular junctions.</li>
+      <li>Quantum pumping in molecules using a general Floquet formalism.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If you are interested, my thesis can be downloaded here:</p>
+
+<ul>
+  <li>PhD Thesis (<a href="http://georglind.dk/phd/KimGLPedersen-PhDThesis-web-final.pdf">web version</a>) (<a href="http://georglind.dk/phd/KimGLPedersen-PhDThesis-print-final.pdf">print version</a>).</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Improve your ssh-foo: Quick way to bridge multiple ssh-servers]]></title>
