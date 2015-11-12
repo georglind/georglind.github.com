@@ -1,0 +1,29 @@
+---
+layout: post
+title: "DMRG"
+date: 2015-11-09 09:09
+published: false
+comments: true
+categories: [Numerics, Physics, Mathemtics, Correlated Systems]
+---
+Density Matrix Renormalization Theory is very much a numerical method of the day. Many results in theoretical condensed matter physics have been published using this method. Originally developed by Steve White, it is currently all the rage of computational many-body physics.
+
+Basically DMRG is a basically a ground state wavefunction ansatz, which depend on a set of parameters, which can be changed in order to optimize the ground state energy. DMRG uses a sufficiently complex set of parameters that more interesting interaction and correlation effects can be captured even for an exceedingly very complex systems. 
+
+DMRG is a renomarlization group scheme and is in some ways the decendant of Wilsons original Numerical Renormalization Group, which very successfully managed to calculate the physics of the difficult Kondo problem. A problem where
+
+An alternative to renormalization group schemes is of course exact solutions, which can be found by direct diagonalization of an exact numerical representation of the system Hamiltonian. However exact diagonalization is a numerically costly technique and can only be applied for sufficiently small systems. For Fermi-Hubbard type systems the current computational limit lies in the ballpark of treating 16 electrons on a lattice of 16 sites; and the size of the Hilbert space--and hence the computational complexity--increases exponentially with the system size.
+
+##How does it work?
+
+Our treatment here owes most of the explanations to Ulrich Shollwoecks excellent paper: "..."
+
+We are going to represent the ground state wave-function using something called matrix-product states.
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@ layout: post
 title: "On Molecules, Molecular Junctions, Quantum Interference in Transport and Quantum Pumping"
 date: 2014-01-21 10:41
 comments: false
-categories: science
+categories: [Science, Physics]
 ---
 
 Just recently I defended my PhD Thesis entitled "Theoretical Investigations Regarding Single Molecules". The title is so generic because the thesis contains work in different fields: 

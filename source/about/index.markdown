@@ -11,8 +11,10 @@ My name is Kim Georg Lind Pedersen and I am a theoretical condensed matter physi
 
 I have taken a passionate interest in several different branches of condensed matter physics. My master project dealt with analytical calculations of the nonequilibirum Kondo problem. 
 
-I am currently finishing my PhD at the Niels Bohr Institute, University of Copenhagen, writing about
-molecular electronics and electronic correlations and molecular electronic pumps. Simultaneously I have published several papers on techniques for measuring spin correlations of cold atoms in optical lattices. 
+I completed my PhD at the Niels Bohr Institute, University of Copenhagen, researching 
+molecular electronics and electronic correlations and molecular electronic pumps. Simultaneously I  published several papers on techniques for measuring spin correlations of cold atoms in optical lattices. 
+
+I am currently employed as a Postdoctoral Researcher in a position split between theoretical condensed matter physics and quantum optics.  
 
 [Profile at Linked-In](http://dk.linkedin.com/in/kglpedersen).
 
@@ -27,6 +29,10 @@ Future work will also appear on [my listing at arXiv.org](http://arxiv.org/a/ped
 2005- Notes on Algebra for the course Alg2.
 2007- Notes on The Philosophy of Science for the course VtMat.
 -->
+
+#### 2014
+- "*Quantum interference in off-resonant transport through single molecules*". {[link](http://link.aps.org/doi/10.1103/PhysRevB.90.125413), [arXiv](http://arxiv.org/abs/1403.4056)}
+- Ph.D. Thesis on "*heoretical Investigations Regarding Single Molecules*". {[pdf]({{ root_url }}phd/KimGLPedersen-PhDThesis-web-final.pdf)}
 
 #### 2012
 - "*Inducing spin-dependent tunneling to probe magnetic correlations in optical lattices*". {[link](http://arxiv.org/ct?url=http%3A%2F%2Fdx.doi.org%2F10%252E1103%2FPhysRevA%252E85%252E053642&v=6b2fc3c5), [arXiv](http://arxiv.org/abs/1203.0925)}

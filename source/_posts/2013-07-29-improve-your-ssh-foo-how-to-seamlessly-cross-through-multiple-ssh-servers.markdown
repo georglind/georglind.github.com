@@ -3,7 +3,7 @@ layout: post
 title: "Improve your ssh-foo: Quick way to bridge multiple ssh-servers"
 date: 2013-07-29 18:10
 comments: true
-categories: ssh howto linux
+categories: [ssh, How To, Linux]
 ---
 
 While I work from my trustworthy Macbook Pro, everything in this tutorial should translate easily to any Unix-variant OS. 

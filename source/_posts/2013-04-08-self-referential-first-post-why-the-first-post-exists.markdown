@@ -4,7 +4,7 @@ title: "Self-referential first post: Why the first post exists"
 author: "Kim Georg Lind Pedersen"
 date: 2013-04-08 23:28
 comments: false
-categories: [Ego,Homespun philosophy]
+categories: [Ego, Homespun philosophy]
 ---
 
 Welcome to the first post. If you read this retrospectively in a world where this is no longer the first post... Then I am sorry to inform you that you have reached the end of this blog archive. Feel free to be sad or move along to something more meaningful.
