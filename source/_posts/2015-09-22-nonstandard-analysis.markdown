@@ -8,13 +8,13 @@ categories: [Mathematics, Education]
 
 Physicists! We deal with mathematics on a needs come, needs serve basis. We regularly divide with infinitesimals, exchange the order of integration and differentiation, sum part of an infinite series. Rigor is dead and buried as long as we end up with meaningful and useful answers!
 
-The road to becoming a theoretical physics include numorous math courses: Algebra, Measure theory, Geometry, and&hellip; Analysis. The mathematical analysis courses investigate mathematical functions, derivatives and integration, and in doing so need to deal with the infinitely small. 
+The road to becoming a theoretical physics include numerous math courses: Algebra, Measure theory, Geometry, and&hellip; Analysis. The mathematical analysis courses investigate mathematical functions, derivatives and integration, and in doing so need to deal with the infinitely small. 
 
 Historically, the idea of taking from something small but finite to the infinitely small, has been employed by many mathematicians throughout the ages, including [Archimedes](https://en.wikipedia.org/wiki/The_Method_of_Mechanical_Theorems), [Fermat](https://en.wikipedia.org/wiki/Adequality), [Euler](https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum), Bolzano, and Cauchy. Its greatest achievement was the development of calculus, where Newton and Leibniz introduced positive quantities smaller than any real number and called them "fluxions" or "inifinitesimals". 
 
 It was those infinitesimals, which made serious formalistic mathematicians, like David Hilbert, uneasy. Infinity is not even part of the real numbers, and infinitesimals are certainly *not.* So, how can we do calculations with numbers that do not exist? It was Karl Weierstrass, who in the end followed up on the work of [Bolzano](https://en.wikipedia.org/wiki/Bernard_Bolzano#Mathematics). He got completely away with the infinitesimals and instead introduced the concept of limits, and the method of epsilon-delta reasoning.
 
-Weierstrass performed a great feat, which is currently being celebrated in every calculus textbook, and in many course Analysis101 course.s However, I'm sure that most people have felt that this rigid approach to calculus could not be the full story. How could a successful tool like calculus have been built on such a shaky ground? And then stood there majestically for centuries until somebody eventually took the time to secure the foundations? 
+Weierstrass performed a great feat, which is currently being celebrated in every calculus textbook, and in many course Analysis-101 courses. However, I'm sure that most people have felt that this rigid approach to calculus could not be the full story. How could a successful tool like calculus have been built on such a shaky ground? And then stood there majestically for centuries until somebody eventually took the time to secure the foundations? 
 
 [Abraham Robinson](https://en.wikipedia.org/wiki/Abraham_Robinson) was the first to seriously consider taking infinitesimals seriously. He expanded the field of real numbers by including unlimited numbers and the infinitesimal numbers. This expansion is known as the *field of hyperreals*, and we are going to take a close look at it, based on the most common construction from something called *ultrafilters*.
 
@@ -83,23 +83,23 @@ $$ *x = [\underline{x}] = [(x, x, x, \ldots)] $$
 
 And we will refer to these hyperreal numbers as *standard*. This directly equips the hyperreals with neutral elements for addition, $\*0$, and multiplication, $\*1$.
 
-You may remember this alternating sequences that we looked at earlier:
+You may also remember this alternating sequences that we looked at earlier:
 
 $$ (0, 1, 0, 1, 0, 1, \ldots ),$$
 
-It directly proves the cleverness of the ultrafilter constrution. This sequence overlaps with the real number $\*0$ on all the even sites, and with the real $\*1$ on all the odd sites. From our discussion of ultrafilters, we know that the set of even numbers, $\mathbb{N}_e$, and the set of odd numbers, $\mathbb{N}_o$ *cannot* belong to the same ultrafilter. This means that for some choice of ultrafilter, the alternating sequence will belong to the $\*0$ equivalence class, and in others it may belong to the $\*1$ class.
+It directly shows the cleverness of the ultrafilter construction. This sequence overlaps with the real number $\*0$ on all the even sites, and with the real $\*1$ on all the odd sites. From our discussion of ultrafilters, we know that the set of even numbers, $\mathbb{N}_e$, and the set of odd numbers, $\mathbb{N}_o$ *cannot* belong to the same ultrafilter. This means that for some choice of ultrafilter, the alternating sequence will belong to the $\*0$ equivalence class, and in others it may belong to the $\*1$ class.
 
 ### Infinitesimals
 
-The hyperreals also contain a lot of numbers in the vicinity of such standard numbers. Consider for example the hyperreal $s = [\underline{s}]$ defined by the sequence,
+The hyperreals also contain a lot of numbers in the vicinity of the standard numbers. Consider for example the hyperreal $s = [\underline{s}]$ defined by the sequence,
 
 $$ \underline{s} = (r + 1/j)_{j=1}^\infty $$
 
 This sequence only intersects sample sequences from the standard number classes a *finite* number of times. This makes the corresponding hyperreal number, $s = [\underline{s}]$, decidedly *non-standard*. It is easy to show that $\langle *x < s \rangle = \mathbb{N}$. More interestingly $s$ squeezes in between $\*x$ and any other standard number $y > x$, because $\langle s < y \rangle \in U$. 
 
-The difference between those two hyperreal numbers, $s - \*x$, is now smaller than any positive real number, and we may refer to it as *infinitesimal*. Note that there exists a whole plethora of well-ordered infinitesimals, such that we may say that one is larger than the other and vice versa. When two hyperreal numbers, $s$ and $r$, are separated by an infinitesimal, we write that $s \simeq r$. 
+The difference between those two hyperreal numbers, $s - \*x$, is now smaller than any positive real number, and we may refer to it as *infinitesimal*. Note that there exist a whole plethora of well-ordered infinitesimals, such that we may say that one is larger than the other and vice versa. When two hyperreal numbers, $s$ and $r$, are separated by an infinitesimal, we write that $s \simeq r$. 
 
-We can then introduce two useful functions. First is the *halo* of a given hyperreal, 
+We can then introduce two useful functions. First comes the *halo* of a given hyperreal, 
 
 $$\mathrm{hal}(r) = \{ s \in *\mathbb{R} : s \simeq r\} $$
 
@@ -107,7 +107,7 @@ Similarly, we say that two hyperreals, $s$ and $r$, are limited separated whenev
 
 $$\mathrm{gal}(r) = \{ s \in *\mathbb{R} : s \sim r \} $$
 
-We may take a look at the hyperreal infinitesimals. We may do this by looking through the *infinitesimal microscope*&mdash;a pedagogical representation of the hyperreal number line originally introduced by Jerome Keisler. Focusing on a particular hyperreal, $r$, the microscope magnifies its halo:
+We may take a look at the hyperreal infinitesimals. We can do this by looking through the *infinitesimal microscope*&mdash;a pedagogical representation of the hyperreal number line originally introduced by Jerome Keisler. Focusing on a particular hyperreal, $r$, the microscope magnifies its halo:
 
 {% img center /files/nonstandard_analysis/microscope-01.png 'The infinitesimal microscope' 'The infinitesimal microscope' %}
 
@@ -125,7 +125,7 @@ Here $m$ is also infinite, and in addition $m > n$, which may confuse or comfort
 
 ## Hey, wait a minute...
 
-What have we just done? It seams that we have take the [Cauchy sequences](https://en.wikipedia.org/wiki/Cauchy_sequence) and turned those sequences into numbers themselves... or entities? Is that all there is to it? 
+What have we just done? It seams that we have taken the [Cauchy sequences](https://en.wikipedia.org/wiki/Cauchy_sequence) and turned those sequences into numbers themselves... or entities? Is that all there is to it? 
 
 Well, yes, in part. 
 
@@ -133,7 +133,7 @@ If you reread the above explanation you will notice that is was no easy feat. We
 
 Instead of thinking about a process where finite elements shrink to zero, the hyperreals allow for a direct construction. In essence it makes it easier to extend properties of finite systems into continuous cases.
 
-Let me note that there exists many other approaches to non-standard analysis: axiomatic, like [Internal Set Theory](https://en.wikipedia.org/wiki/Internal_set_theory) or [Alternative Set Theory](https://en.wikipedia.org/wiki/Alternative_set_theory), as well as constructionist like the [surreal numbers](https://en.wikipedia.org/wiki/Surreal_number) or the [superreal numbers](https://en.wikipedia.org/wiki/Superreal_number).
+Let me note that there exists many other approaches to non-standard analysis: axiomatic, like [Internal Set Theory](https://en.wikipedia.org/wiki/Internal_set_theory) or [Alternative Set Theory](https://en.wikipedia.org/wiki/Alternative_set_theory), as well as constructionist, like the [surreal numbers](https://en.wikipedia.org/wiki/Surreal_number) or the [superreal numbers](https://en.wikipedia.org/wiki/Superreal_number).
 
 ## How to use it?
 
@@ -163,11 +163,11 @@ $$ f'(x) = \mathrm{sh} \left( 3 x^2 + 3 x \mathrm{d}x \right) = 3 x^2 $$
 
 The proof of the intermediate value theorem (Bolzano's theorem) takes on a simple form in non-standard analysis. The theorem considers a continuous function $f$ on the interval $[a, b]$. For any $d$ in between $f(a)$ and $f(b)$, there exists a $c \in [a,b]$ such that $f(c) = d$.
 
-Without loss of generality we assume that $f(a) < f(b)$. Initially, we divide the interval $[a,b]$ into an integer, $N$, number of pieces of equal length, $\delta_N = (b-a)/N$. Consider now the first division point, $s_N$, where f(s_N) > d$. Then $f(s_N - \Delta_N) \leq d$.
+Without loss of generality we assume that $f(a) < f(b)$. Initially, we divide the interval $[a,b]$ into an integer, $N$, number of pieces of equal length, $\delta_N = (b-a)/N$. Consider now the first division point, $s_N$, where $f(s_N) > d$. Then $f(s_N - \Delta_N) \leq d$.
 
 Then consider the division of the interval into a number of segments given by the unlimited hyperinteger, $M \in \*\mathbb{N}$. Due to the transfer principle there still exists a smallest division point, $s_M$, where $f(s_M) > d$. However, $\Delta_M$ is infinitesimal, and it is obviously true that $s_M \simeq s_M - \Delta_M$. By continuity $f(s_M) \simeq f(s_M - \Delta_M) \simeq d$. This means that we have found a real number $c \simeq s_M$. *qed*.
 
-This proof then ends our example computation with the hyperreals. Note that we introduced continuity on the hyperreals on-the-fly as $r \simeq s \Rightarrow f(r) \simeq f(s)$. If you are interested in a rigorous derivation, you can find it in the source material for this small introduction to the hyperreals. 
+This proof ends our computations with the hyperreals. On the fly, we introduced continuity on the hyperreals as $r \simeq s \Rightarrow f(r) \simeq f(s)$. If you are interested in a rigorous derivation, you can find it in the source material for this small introduction.
 
 <!-- ### Distributions
 
@@ -186,6 +186,6 @@ I am very much indebted to the well-written article ["Infinitesimals: History & 
 
 Also the textbook ["Elementary Calculus: An Infinitesimal Approach" by H. Jerome Keisler](http://www.math.wisc.edu/~keisler/calc.html) provided a sound foundation for understanding of the hyperreals.
 
-Of course Wikipedia also have several articles about non-standard analysis, although I'd rather recommend the two sources above for further study.
+Wikipedia also has several articles about non-standard analysis, although I'd rather recommend the two sources above for further study.
 
-I hope you enjoyed this small excursion into the hyperreals. I know that people are working on applying non-standard reasoning to distributions and to physics such as the Feynman Path-integral. I may (or may not) cover that in later posts&hellip;
+I hope you enjoyed this small excursion into the hyperreals. I know that people are working on applying non-standard reasoning to distributions and to mathematical physics like the Feynman Path-integral. I may (or may not) cover that in a later post&hellip;
