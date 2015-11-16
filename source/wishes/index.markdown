@@ -7,12 +7,13 @@ sharing: false
 footer: true
 ---
 
-In case anyone felt like giving me anything, I list my wishes here:
+In case anyone felt like giving me anything, I list my wishes here (closing in on Christmas it is updated weekly):
 
 Miscellaneous
 -------------
 
-* [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
+- [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
+- Headphones that work in traffic (not completely isolating). Must fit under a beanie or a bicycle-helmet.
 
 <!--
 Computer
@@ -28,8 +29,10 @@ DVDs
 Books
 -----
 
-* "[Confidence](http://www.amazon.com/Confidence-Overcoming-Self-Esteem-Insecurity-Self-Doubt/dp/1594631263)" by Tomas Chamorro-Premuzic.
-* "[Food & Cooking](http://www.amazon.com/McGee-Food-Cooking-Encyclopedia-Kitchen/dp/B00BW8LFLM/ref=sr_1_1?s=books&ie=UTF8&qid=1382565397&sr=1-1&keywords=Food+%26+Cooking+-+An+encyclopedia+of+kitchen+science%2C+history+and+culture) - An encyclopedia of kitchen science, history and culture" by Harold McGee.
-* "[Sangbogen I](http://www.saxo.com/dk/sangbogen-1-spiralryg_spiralryg_9788759808801)" (number one) a collection of lyrics and musical notes.
+- ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style)
+- ["The Elephants of style" by Bill Walsh](http://www.amazon.de/The-Elephants-Style-Trunkload-Contemporary/dp/0071422684%3FSubscriptionId%3DAKIAILSHYYTFIVPWUY6Q%26tag%3Dduc02-21%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0071422684)
+- ["Thinking fast and slow" by Daniel Kahnemann](http://www.amazon.de/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=sr_1_1?ie=UTF8&qid=1447662455&sr=8-1&keywords=Thinking+fast+and+slow)
+- ["How to win friends and influence people" by Dale Carnegie](http://www.amazon.de/How-Win-Friends-Influence-People/dp/1439199191/ref=pd_sim_14_3?ie=UTF8&dpID=51UGaSpCgkL&dpSrc=sims&preST=_AC_UL160_SR96%2C160_&refRID=0QX521ZCFQ3B6CY7M812)
+
 
 Or something nice. I'm sure that you can figure it out :)
