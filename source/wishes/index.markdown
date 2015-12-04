@@ -14,6 +14,8 @@ Miscellaneous
 
 - [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
 - Headphones that work in traffic (not completely isolating). Must fit under a beanie or a bicycle-helmet.
+- [A pull up bar](http://www.amazon.com/pull-up-bar/b?ie=UTF8&node=3408471) - One that fits in a door. 
+- A foldable chess board (medium size, possibility to store pieces when folded). A nice wooden one would be appreciated very much. Something ideal for holiday or outdoor games.
 
 <!--
 Computer
