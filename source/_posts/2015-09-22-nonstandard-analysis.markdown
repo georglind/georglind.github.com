@@ -6,21 +6,23 @@ comments: True
 categories: [Mathematics, Education]
 ---
 
-Physicists! We deal with mathematics on a needs come, needs serve basis. We regularly divide with infinitesimals, exchange the order of integration and differentiation, sum part of an infinite series. Rigor is dead and buried as long as we end up with meaningful and useful answers!
+Physicists! We deal with mathematics on a needs come, needs serve basis. We regularly divide with infinitesimals, exchange the order of integration and differentiation and sum part of an infinite series. Rigor is dead and buried as long as we end up with meaningful and useful answers!
 
-The road to becoming a theoretical physics includes numerous math courses: Algebra, Measure theory, Geometry, and&hellip; Analysis. Mathematical analysis investigates mathematical functions, derivatives and integration, and they deal with the infinitely small. 
+The road to becoming a theoretical physicist includes numerous math courses: Algebra, Measure theory, Geometry, and&hellip; Analysis. Mathematical analysis investigates mathematical functions, derivatives and integration and they deal with the infinitely small. 
 
-Historically, the idea of taking something small but finite and turning it infinitely small, has been employed by many mathematicians throughout the ages, including [Archimedes](https://en.wikipedia.org/wiki/The_Method_of_Mechanical_Theorems), [Fermat](https://en.wikipedia.org/wiki/Adequality), [Euler](https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum), Bolzano, and Cauchy. Its greatest achievement was the development of calculus, where Newton and especially Leibniz introduced positive quantities smaller than any real number and called them "fluxions" or "inifinitesimals". 
+Historically, the idea of taking something small but finite and turning it infinitely small has been employed by many mathematicians throughout the ages, including [Archimedes](https://en.wikipedia.org/wiki/The_Method_of_Mechanical_Theorems), [Fermat](https://en.wikipedia.org/wiki/Adequality), [Euler](https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum), Bolzano, and Cauchy. The greatest product of this idea was the development of calculus, where Newton and especially Leibniz introduced positive quantities smaller than any real number and called them "fluxions" or "inifinitesimals". 
 
-It was those infinitesimals, which made serious formalistic mathematicians, aka David Hilbert, uneasy. Infinity is not even part of the real numbers, and infinitesimals are certainly *not*. So, how can we do calculations with numbers that do not exist? It was Karl Weierstrass, who in the end followed up on the work of [Bolzano](https://en.wikipedia.org/wiki/Bernard_Bolzano#Mathematics). He got completely away with the infinitesimals and instead introduced the concept of limits, and the method of epsilon-delta reasoning.
+But, infinitesimals made serious formalistic mathematicians, aka David Hilbert, uneasy. Infinity and infinitesimals are not even real numbers. So, how can we do calculations with numbers that do not exist? It was Karl Weierstrass, who followed up on the work of [Bolzano](https://en.wikipedia.org/wiki/Bernard_Bolzano#Mathematics), and got completely away with the infinitesimals and instead introduced the concept of limits and the method of epsilon-delta reasoning.
 
-Weierstrass performed a great feat, and it is currently being celebrated in every calculus textbook, and in many course Analysis-101 courses. However, I'm sure that most people have felt that this rigid approach to calculus could not be the full story. How could a successful tool like calculus have been built on such a shaky ground? And then stood there majestically for centuries until somebody eventually took the time to secure the foundations? And how could all the physics shortcuts work out?
+Weierstrass performed a great feat, and it is currently being celebrated in every calculus textbook and in many Analysis-101 courses. However, I'm sure that most people have felt that this rigid approach to calculus could not be the full story. How was a successful tool like calculus built on such a shaky ground? And how did it manage to stand there majestically for centuries until somebody eventually took the time to secure the foundations? And how could all our physics shortcuts work out?
 
-[Abraham Robinson](https://en.wikipedia.org/wiki/Abraham_Robinson) was the first to seriously consider taking infinitesimals seriously. He expanded the field of real numbers by including unlimited numbers and the infinitesimal numbers. Such an expansion is in need of a fancy name, and today it is known as the *field of the hyperreal*. We are going to take a close look at it, based on the most common construction from something called *ultrafilters*.
+[Abraham Robinson](https://en.wikipedia.org/wiki/Abraham_Robinson) was the first to consider taking infinitesimals seriously. He expanded the field of real numbers by including unlimited numbers and the infinitesimal numbers. Such an expansion is in need of a fancy name, and today it is known as the *field of the hyperreal*. We are going to take a close look at it, following the most common approach based on something called *ultrafilters*.
 
 ## Ultrafilters
 
-In order to construct the hyperreals, the concept of *ultrafilters* will come in handy. And **no**, I have no idea why they are called ultrafilters&hellip;
+For the construction of the hyperreals we need *ultrafilters*. They will help us ensure that the hyperreals is a well-ordered field of numbers. 
+
+And **no**, I have no idea why they are called ultrafilters&hellip;
 
 {% img center /files/nonstandard_analysis/ultrafilter.png 'Ultrafilter' 'Ultrafilter' %}
 
@@ -35,55 +37,57 @@ As a simple example consider the empty set $\emptyset = \\{\\}$. The empty set i
 
 On the other hand: Consider the infinite subset containing all the even numbers, $\mathbb{N}_e$, and the subset containing all the odd numbers, $\mathbb{N}_o$. The intersection of those two subsets $\mathbb{N}_e \cap \mathbb{N}_o = \emptyset$, meaning that they cannot both belong to our ultrafilter (per statement 2). Because the two sets are the complements of each other, exactly *one* of them must belong to $U$ (per statement 4), but we are free to choose which one!
 
-So the ultrafilter is not unique, but it can be shown that two ultrafilters on the same set are equivalent, and one can be constructed from the other simply by exchanging some elements with their complements.
+So an ultrafilter is not unique, but it can be shown that two ultrafilters on the same set are equivalent, and one can be constructed from the other simply by exchanging some elements with their complements.
 
 ## The hyperreals
 
-After this small intermission, we are ready to construct the hyperreals. This particular construction is based on sequences. A sequence is a function on the positive integers, and it is generally written as,
+After this small intermission, we are ready to construct the hyperreals. This particular construction uses sequences. A sequence is a function on the positive integers, and we write them in the following way,
 
 $$ \underline{a} = (a_1, a_2, a_3, \ldots) = \big( a_j \big)_{j=1}^\infty = ( a_j ) $$
 
-Here the hyperreals are constructed from infinite sequences on the reals, $\underline{a} \in \mathbb{R}^{\mathbb{N}}$. The real numbers themselves can easily be represented as infinite sequences with constant elements,
+The hyperreals are constructed from infinite sequences on the reals, $\underline{a} \in \mathbb{R}^{\mathbb{N}}$. The real numbers themselves can easily be represented as infinite sequences with constant elements,
 
 $$ \underline{x} = (x) = (x, x, x, \ldots). $$
 
-So the number,
+So the number 2 is written,
 
 $$ (2) = (2, 2, 2, \ldots) $$
 
-However we may dream up many other sequences, like these: 
+But we may dream up many other "non-real" sequences, like these: 
 
 $$ (0, 1, 0, 1, 0, \ldots) \text{ or } (1, 2, 3, 4, 5, 6, \ldots).$$
 
-Like the real numbers we we want the hyperreal numbers to be ordered, so any two numbers are either smaller or larger than each other. The main problem with sequences is that they cannot be compared to each other in a consistent way! In order to extract something usable, we must "thin out" the forest of possible sequences.
+We want the hyperreal numbers to be ordered, so any two hyperreal numbers can be compared and found to be either larger or smaller than each other. The main problem with our sequences is that they cannot be compared to each other in a consistent way. Is $$ (1, 2, 3, 4, 5, \ldots) $$ greater or smaller than $$(2, 2, 2, 2, \ldots)$$? And what about $$ (0, 1, -1, 2, -2, 3, -3, \ldots)$$ compared to $$(1, 1, 2, 1, 1, 2, \ldots)$$? If I change a single element of a sequence, is this new sequence then greater, smaller or equivalent to the original sequence?
 
-The idea, which help us overcome this obstacle, is to let two sequences represent the same hyperreal number if "most" of their elements are identical. For a consistent definition of "most" we return to the ultrafilter construction. In general we will say that two sequences are equivalent, $\underline{r} \equiv \underline{s}$, if and only if the places, at which they share elements, form an infinite set that belongs to our ultrafilter, $U$:
+In order to extract something usable, we must "thin out" in the forest of possible sequences.
+
+We do this by letting two sequences represent the same hyperreal number if "most" of their elements are identical. For a consistent definition of "most" we return to the ultrafilter construction. We say that two sequences are equivalent, $\underline{r} \equiv \underline{s}$, if and only if the places, at which they share elements, form an infinite set that belongs to our ultrafilter, $U$:
 
 $$\langle r = s \rangle = \{j \in \mathbb{N}: r_j = s_j\} \in U.$$
 
-Using the properties of the ultrafilter, it is easy to show that this construction is transitive and defines an equivalence relation. The resulting equivalence classes defines the *hyperreals*:
+Using the properties of the ultrafilter, it is easy to show that this construction is transitive and defines an equivalence relation. The resulting equivalence classes define the *hyperreals*:
 
 $$ *\mathbb{R} = \{ [r] \, : \, r \in \mathbb{R}^\mathbb{N} \} $$
 
-Hyperreal numbers may be manipulated by first choosing sample sequences from the relevant equivalence classes, then performing element-wise operations on those sample sequences, and finally representing the resulting hyperreal as the equivalence class of the resulting sequence. If that was too convoluted, here come the simple definitions of addition and multiplication,
+Hyperreal numbers may be manipulated by first choosing sample sequences from the relevant equivalence classes, then performing element-wise operations on those sample sequences, and finally representing the resulting hyperreal as the equivalence class of the resulting sequence. If that was too convoluted, here comes the simple definitions of addition and multiplication,
 
 $$ r \oplus s =  [r] + [s] = [(r_j + s_j)]$$
 
 $$ r \odot s = [r] \cdot [s] = [(r_j \cdot s_j)] $$
 
-We are now ready to show that this careful construction allow us to order the hyperreals. Assume that one sequence, $r$, for "a large part" is smaller than another sequence, $s$. Again we take "for a large part" to mean that the sequence indices at which $r$ is smaller than $s$ belong to our ultrafilter, so $\langle r < s \rangle =  \\{ j : r_j < s_j \\} \in U$. It follows almost automatically that $r \not\equiv s$, because $\langle r = s \rangle \subset \mathbb{N} \setminus \langle r < s \rangle \not\in U$ (by use of ultrafilter property 1 and 4). 
+We are now ready to show that this careful construction allow us to order the hyperreals. Assume that one sequence, $r$, for "a large part" is smaller than another sequence, $s$. Again we take "for a large part" to mean that the sequence indices at which $r$ is smaller than $s$ belong to our ultrafilter, so $\langle r < s \rangle =  \\{ j : r_j < s_j \\} \in U$. It follows almost automatically that $r \not\equiv s$, because $\langle r = s \rangle \subset \mathbb{N} \setminus \langle r < s \rangle \not\in U$ (by use of ultrafilter properties 1 and 4). 
 
 When applied a little more rigorously this shows that the hyperreals, $(\*\mathbb{R}, \oplus, \odot)$, indeed form an *ordered field*.
 
 ### The reals
 
-As we already anticipated, the real numbers are embedded in the hyperreals, and are now represented by classes equivalent to the constant sequences. Introduce a map from the reals to the hyperreals, $* : \mathbb{R} \rightarrow *\mathbb{R}$, such that
+As we already anticipated, the real numbers are embedded in the hyperreals represented by classes equivalent to the constant sequences. Let us introduce a map from the reals to the hyperreals, $* : \mathbb{R} \rightarrow *\mathbb{R}$, such that
 
 $$ *x = [\underline{x}] = [(x, x, x, \ldots)] $$
 
 We refer to these hyperreal numbers as *standard*. They directly equip the hyperreals with neutral elements for addition, $\*0$, and multiplication, $\*1$.
 
-You may also remember this alternating sequences that we looked at earlier:
+You may remember this alternating sequence, we looked at earlier:
 
 $$ (0, 1, 0, 1, 0, 1, \ldots ),$$
 
@@ -97,9 +101,9 @@ $$ \underline{s} = (r + 1/j)_{j=1}^\infty $$
 
 This sequence only intersects sample sequences from the standard number classes a *finite* number of times. This makes the corresponding hyperreal number, $s = [\underline{s}]$, decidedly *non-standard*. It is easy to show that $\langle *x < s \rangle = \mathbb{N}$. More interestingly $s$ squeezes in between $\*x$ and any other standard number $y > x$, because $\langle s < y \rangle \in U$. 
 
-The difference between those two hyperreal numbers, $s - \*x$, is now smaller than any positive real number, and we may refer to it as *infinitesimal*. There exist a whole plethora of well-ordered infinitesimals, and they can be compared to each other, so one is smaller and one is bigger, even though they are all infinitesimal. When two hyperreal numbers, $s$ and $r$, are (only) separated by an infinitesimal, we write that $s \simeq r$. 
+The difference between those two hyperreal numbers, $s - \*x$, is now smaller than any positive real number, and we may refer to it as *infinitesimal*. There exists a whole plethora of well-ordered infinitesimals, and they can be compared to each other, so one is smaller and one is bigger, even though they are all infinitesimal. When two hyperreal numbers, $s$ and $r$, are (only) separated by an infinitesimal, we write that $s \simeq r$. 
 
-We can then introduce two useful functions. First comes the *halo* of a given hyperreal, 
+We can then introduce two useful functions. The *halo* of a hyperreal contains the infinitesimal cloud around the closest standard number,
 
 $$\mathrm{hal}(r) = \{ s \in *\mathbb{R} : s \simeq r\} $$
 
@@ -107,7 +111,7 @@ Similarly, we say that two hyperreals, $s$ and $r$, are limited separated whenev
 
 $$\mathrm{gal}(r) = \{ s \in *\mathbb{R} : s \sim r \} $$
 
-We may take a look at the hyperreal infinitesimals. We can do this by looking through the *infinitesimal microscope*&mdash;a pedagogical representation of the hyperreal number line originally introduced by Jerome Keisler. Focusing on a particular hyperreal, $r$, the microscope magnifies its halo:
+We may take a look at the hyperreal infinitesimals through the *infinitesimal microscope*&mdash;a pedagogical representation of the hyperreal number line originally introduced by Jerome Keisler. Focusing on a particular hyperreal, $r$, the microscope magnifies its halo:
 
 {% img center /files/nonstandard_analysis/microscope-01.png 'The infinitesimal microscope' 'The infinitesimal microscope' %}
 
@@ -117,7 +121,7 @@ The unlimited numbers form another interesting family of hyperreal numbers. Cons
 
 $$ n = [\underline{n}] = [(1, 2, 3, 4, 5, \ldots )]. $$
 
-It is clearly non-standard (its sample sequences only overlap real number sequences at a finite number of places), and it is also greater than any real number: All properties which we normally associate with the infinite. However, like the infinitesimals, there are many different unlimited numbers within the hyperreals. Consider for example:
+It is clearly non-standard (its sample sequences only overlap real number sequences at a finite number of places), and it is also greater than any real number: All properties which we normally associate with the infinite. However, like the infinitesimals, there are many *different* unlimited numbers within the hyperreals. Consider for example:
 
 $$ m = [\underline{m}] = [(2, 3, 4, 5, 6, \ldots)]. $$
 
@@ -125,11 +129,11 @@ Here $m$ is also unlimited, and in addition $m > n$, which may confuse or comfor
 
 ## Hey, wait a minute...
 
-What have we just done? It seams that we have taken the [Cauchy sequences](https://en.wikipedia.org/wiki/Cauchy_sequence) and turned those sequences into numbers themselves... or entities? Is that all there is to it? 
+What have we just done? It seems we have taken the [Cauchy sequences](https://en.wikipedia.org/wiki/Cauchy_sequence) and turned those sequences into numbers themselves... or entities? Is that all there is to it? 
 
 Well, yes, in part. 
 
-But if you glance back, you may notice that it is not at all obvious. The ultrafilter construction is a necessary complication, and it probably explains partly why the hyperreals was not built earlier. Whether or not you like this construction is of course a subjective matter. Currently the main advantage of non-standard analysis seems to be that it allow you to *think* differently about calculus. 
+But if you glance back, you may notice that it is not at all obvious. The ultrafilter construction is a necessary complication, and this complication partly explains why the hyperreals was not built earlier. Whether or not you like this construction is of course a subjective matter. Currently, the main advantage of non-standard analysis, is that it allows you to think *differently* about calculus. 
 
 Instead of thinking about a process where finite elements shrink to zero, the hyperreals allow for a direct construction. In essence it makes it easier to extend properties of finite systems into continuous cases.
 
@@ -137,7 +141,7 @@ Let me note that there exists many other approaches to non-standard analysis: ax
 
 ## How to use it?
 
-We will now leave the safe shore of pretended rigor and simply jump into computation. We will do so with two simple examples, but first we will need:
+We now leave the safe shore of pretended rigor and jump into computation. We will do so with two simple examples, but first we need:
 
 > **The transfer principle**
 >
@@ -149,11 +153,13 @@ In order to transfer our results from the hyperreals and back to the reals, we d
 
 ### The derivative
 
-We start simple. Assuming&mdash;somewhat haphazardly&mdash;that simple functions may easily be transferred to the hyperreals, we define the derivative of a function, as the shadow, 
+We start simple. Assuming&mdash;somewhat haphazardly&mdash;that simple functions may easily be transferred to the hyperreals, we define the derivative of a function as the shadow, 
 
 $$ f'(x) = \mathrm{sh}\left(\frac{*f(*x + \epsilon) - *f(*x)}{\epsilon}\right), $$
 
-where $\epsilon$ is a hyperreal infinitesimal. Take the cubic function, $f(x) = x^3$. We drop the star extensions for brevity. The non-standard derivation follows then almost automatically:
+where $\epsilon$ is a hyperreal infinitesimal. We now drop the star extensions for brevity. 
+
+Take the cubic function, $f(x) = x^3$. The non-standard derivation follows then almost automatically:
 
 $$ f'(x) = \mathrm{sh} \left( \frac{(x + \epsilon)^3 - x^3}{\epsilon} \right) = \mathrm{sh} \left( \frac{x^3 + 3 x \epsilon^2 + 3 x^2 \epsilon + \epsilon^3 - x^3}{\epsilon} \right). $$
 
@@ -163,15 +169,15 @@ $$ f'(x) = \mathrm{sh} \left( 3 x^2 + 3 x \epsilon \right) = 3 x^2. $$
 
 ### The intermediate value theorem
 
-To contrast the standard epsilon-delta approach with the non-standard method we turn to the proof of the intermediate value theorem also known as Bolzanos theorem. If you want to, you can take a look at [the standard proof](https://en.wikipedia.org/wiki/Intermediate_value_theorem#Proof) before continuing. 
+In order to contrast the standard epsilon-delta approach with our novel non-standard method we turn to the proof of the intermediate value theorem (also known as Bolzanos theorem). If you want to, you can take a look at [the standard proof](https://en.wikipedia.org/wiki/Intermediate_value_theorem#Proof) before continuing. 
 
-The theorem considers a continuous function $f$ on the interval $[a, b]$. It states that for any $d$ in between $f(a)$ and $f(b)$, there exists a $c \in [a,b]$ such that $f(c) = d$.
+The theorem considers a continuous function $f$ on the interval $[a, b]$. It states that for any $d$ in between $f(a)$ and $f(b)$, there exists $c \in [a,b]$ such that $f(c) = d$.
 
 Without loss of generality we assume that $f(a) < f(b)$. Initially, we divide the interval $[a,b]$ into an integer, $N$, number of pieces of equal length, $\delta_N = (b-a)/N$. Consider now the first division point, $s_N$, where $f(s_N) > d$. Then logically $f(s_N - \Delta_N) \leq d$.
 
 Consider the division of the interval into a number of segments given by the unlimited hyperinteger, $M \in \*\mathbb{N}$. Due to the transfer principle there still exists a smallest division point, $s_M$, where $f(s_M) > d$. However, $\Delta_M$ is infinitesimal, and this shows that $s_M \simeq s_M - \Delta_M$. By continuity $f(s_M) \simeq f(s_M - \Delta_M) \simeq d$. So the real number we are looking for is actually $c = \mathrm{sh}(s_M)$. Q.E.D.
 
-This proof ends our computations with the hyperreals. As a side-note we introduced continuity on the hyperreals as $r \simeq s \Rightarrow f(r) \simeq f(s)$. If you are interested in a rigorous derivation, you can find it in the source material.
+This proof also ends this short section on the application of the hyperreals. As a side-note we introduced continuity on the hyperreals as $r \simeq s \Rightarrow f(r) \simeq f(s)$. If you are interested in a rigorous derivation, you can find it in the source material.
 
 <!-- ### Distributions
 
@@ -186,10 +192,10 @@ http://scitation.aip.org/content/aip/journal/jmp/47/9/10.1063/1.2339017
 
 ## Sources
 
-I am indebted to the well-written article ["Infinitesimals: History & Application" by Joel A. Tropp](http://users.cms.caltech.edu/~jtropp/papers/Tro99-Infinitesimals.pdf). If you want to delve further into nonstandard analysis, you really should give it a good read.
+I am indebted to the well-written article ["Infinitesimals: History & Application" by Joel A. Tropp](http://users.cms.caltech.edu/~jtropp/papers/Tro99-Infinitesimals.pdf). If you want to delve further into nonstandard analysis, you should give it a good read.
 
-Also the textbook ["Elementary Calculus: An Infinitesimal Approach" by H. Jerome Keisler](http://www.math.wisc.edu/~keisler/calc.html) provided a sound foundation for understanding of the hyperreals.
+Also the textbook ["Elementary Calculus: An Infinitesimal Approach" by H. Jerome Keisler](http://www.math.wisc.edu/~keisler/calc.html) provided a sound foundation for my understanding of the hyperreals.
 
 Wikipedia also has several articles about non-standard analysis, although I'd rather recommend the two sources above for further study.
 
-I hope you enjoyed this small excursion into the hyperreals. Now, at least you have an answer ready when pesky mathematicians question your logic. I have also heard that people are working on applying non-standard reasoning to distributions and to mathematical physics like the Feynman Path-integral. I may (or may not) cover that in a later post&hellip;
+I hope you have enjoyed this small excursion into the hyperreals. Now, at least you have an answer ready when pesky mathematicians question your logic. I have also read about people are working on applying non-standard reasoning to distributions and to mathematical physics concepts like the Feynman Path-integral. I may (or may not) cover that in a later post&hellip;
