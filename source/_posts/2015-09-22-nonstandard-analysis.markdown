@@ -69,6 +69,8 @@ We do this by letting two sequences represent the same hyperreal number if "most
 
 $$\langle r = s \rangle = \{j \in \mathbb{N}: r_j = s_j\} \in U.$$
 
+Note that we sneakily introduced the parenthesis $\langle \cdots \rangle$, to signify that we are transforming a relation between two sequence representations of hyperreal numbers into a set of indices for which the sequence elements obey that same relation.
+
 Using the properties of the ultrafilter, it is easy to show that this construction is transitive and defines an equivalence relation. The resulting equivalence classes define the *hyperreals*:
 
 $$ *\mathbb{R} = \{ [r] \, : \, r \in \mathbb{R}^\mathbb{N} \} $$
