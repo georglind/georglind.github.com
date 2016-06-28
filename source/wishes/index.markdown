@@ -12,9 +12,9 @@ In case anyone felt like giving me anything, I list my wishes here (closing in o
 Miscellaneous
 -------------
 
-- [Membership of Zetland](https://www.zetland.dk/gave)
+- [Forever spin titanium top](http://foreverspin.com/) (USD 48)
 - [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
-- Headphones that work in traffic (not completely isolating). Must fit under a beanie or a bicycle-helmet.
+- Headphones that work in traffic (not completely isolating). Must fit under a beanie or a bicycle-helmet. Perhaps even cordless.
 
 Tools
 -----
@@ -39,7 +39,6 @@ Books
 - ["De lytter ikke" by Christian Kock and Magnus Boding Hansen](http://www.hansreitzel.dk/Kommunikation/De-lytter-ikke/9788741263922)
 - ["Writing Analytically" by Rosenwasser and Stephen](http://www.amazon.co.uk/Writing-Analytically-David-Rosenwasser/dp/1285436504/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449658310&sr=8-1&keywords=Writing+analytically)
 - ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style)
-- ["Thinking fast and slow" by Daniel Kahnemann](http://www.amazon.de/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576/ref=sr_1_1?ie=UTF8&qid=1447662455&sr=8-1&keywords=Thinking+fast+and+slow)
 
 
 Or something nice. I'm sure, that you can figure it out :)
