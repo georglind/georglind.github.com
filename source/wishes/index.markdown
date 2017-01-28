@@ -12,9 +12,8 @@ In case anyone felt like giving me anything, I list my wishes here (closing in o
 Miscellaneous
 -------------
 
-- [Forever spin titanium top](http://foreverspin.com/) (USD 48)
-- [Music Box Kit](http://www.kikkerland.com/products/make-your-own-music-box-kit/) (USD 22). Getting more than one is even fine, because then we may perform orchestral pieces like [this one](https://www.youtube.com/watch?v=3a9wWRxYSko).
-- Headphones that work in traffic (not completely isolating). Must fit under a beanie or a bicycle-helmet. Perhaps even cordless.
+- [A piece of gold](https://www.amazon.de/Goldbarren-1g-Feingold-Pr%C3%A4gefrisch-zertifiziert/dp/B013LQF75W/ref=pd_sim_sbs_201_2?ie=UTF8&psc=1&refRID=WHS8V7Q8C9NWD4A3H4DY) (EUR 58)
+- [A piece of silver](https://www.amazon.de/Sunshine-Minting-Silver-Silberbarren-Barren/dp/B00B4XDOMS/ref=aag_m_pw_dp?ie=UTF8&m=A1BIUYPGI5EN8M) (EUR 39)
 
 Tools
 -----
@@ -36,7 +35,6 @@ DVDs
 Books
 -----
 
-- ["De lytter ikke" by Christian Kock and Magnus Boding Hansen](http://www.hansreitzel.dk/Kommunikation/De-lytter-ikke/9788741263922)
 - ["Writing Analytically" by Rosenwasser and Stephen](http://www.amazon.co.uk/Writing-Analytically-David-Rosenwasser/dp/1285436504/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449658310&sr=8-1&keywords=Writing+analytically)
 - ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style)
 
