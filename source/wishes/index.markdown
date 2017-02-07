@@ -14,6 +14,9 @@ Miscellaneous
 
 - [A piece of gold](https://www.amazon.de/Goldbarren-1g-Feingold-Pr%C3%A4gefrisch-zertifiziert/dp/B013LQF75W/ref=pd_sim_sbs_201_2?ie=UTF8&psc=1&refRID=WHS8V7Q8C9NWD4A3H4DY) (EUR 58)
 - [A piece of silver](https://www.amazon.de/Sunshine-Minting-Silver-Silberbarren-Barren/dp/B00B4XDOMS/ref=aag_m_pw_dp?ie=UTF8&m=A1BIUYPGI5EN8M) (EUR 39)
+- [A Stirling engine](https://www.amazon.de/Yongse-Niedertemperatur-Stirlingmotor/dp/B01022KRA8/ref=sr_1_27?ie=UTF8&qid=1486468459&sr=8-27&keywords=stirlingmotor) (EUR 39)
+- A 500 g - 1 kg piece of Indium, like [here](http://www.ebay.com/itm/Indium-Metal-Ingot-1000g-99-99-min-pure/262831382092?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D2%26asc%3D20131003132420%26meid%3Db3844c3b3b554a829f450fa4c5a48d02%26pid%3D100005%26rk%3D1%26rkt%3D6%26sd%3D262792784247).
+- A piece of Tungsten, like [here](http://www.ebay.com/itm/Tungsten-1-Cube-Block-Weight-/302193147376?hash=item465c1d7df0:g:zWUAAOSw44BYddsV).
 
 Tools
 -----
@@ -35,7 +38,7 @@ DVDs
 Books
 -----
 
-- ["Writing Analytically" by Rosenwasser and Stephen](http://www.amazon.co.uk/Writing-Analytically-David-Rosenwasser/dp/1285436504/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449658310&sr=8-1&keywords=Writing+analytically)
+<!-- - ["Writing Analytically" by Rosenwasser and Stephen](http://www.amazon.co.uk/Writing-Analytically-David-Rosenwasser/dp/1285436504/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449658310&sr=8-1&keywords=Writing+analytically) -->
 - ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style)
 
 
