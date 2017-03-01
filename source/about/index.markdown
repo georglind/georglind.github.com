@@ -7,14 +7,16 @@ sharing: false
 footer: true
 ---
 
-My name is Kim Georg Lind Pedersen and I am a theoretical condensed matter physicist with a special interest in strongly correlated systems. I have worked with both numerical and analytical methods mainly to simulate the evolution of ensembles and perform many-body calculations. 
+My name is Kim Georg Lind Pedersen and I am a theoretical condensed matter physicist with a special interest in quantum transport. I have worked with both numerical and analytical methods mainly to calculate scattering amplitudes, simulate the evolution of ensembles and--in general--perform many-body calculations. 
 
-I have taken a passionate interest in several different branches of condensed matter physics. My master project dealt with analytical calculations of the nonequilibirum Kondo problem. 
+I have taken worked in several different branches of condensed matter physics. My master project dealt with analytical calculations of the nonequilibirum Kondo problem. 
 
 I completed my PhD at the Niels Bohr Institute, University of Copenhagen, researching 
 molecular electronics and electronic correlations and molecular electronic pumps. Simultaneously I  published several papers on techniques for measuring spin correlations of cold atoms in optical lattices. 
 
 I am currently employed as a Postdoctoral Researcher in a position split between theoretical condensed matter physics and quantum optics.  
+
+You can contact me professionally at pedersen<span></span>@<span></span>physik.rwth-aachen.de.
 
 [Profile at Linked-In](http://dk.linkedin.com/in/kglpedersen).
 
