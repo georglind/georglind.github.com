@@ -26,11 +26,7 @@ However, I'm sure that most people (phycisits included) have felt that this rigi
 
 For the construction of the hyperreals we need *ultrafilters*. They will help us ensure that the hyperreals is a well-ordered field of numbers. 
 
-And **no**, I have no idea why they are called ultrafilters&hellip;
-
-{% img center /files/nonstandard_analysis/ultrafilter.png 'Ultrafilter' 'Ultrafilter' %}
-
-No matter&hellip; A free ultrafilter $U$ on the natural numbers, $\mathbb{N}$, is a set of subsets of $\mathbb{N}$ with the properties that,
+A free ultrafilter $U$ on the natural numbers, $\mathbb{N}$, is a set of subsets of $\mathbb{N}$ with the properties that,
 
 1. $U$ only contains infinite subsets of $\mathbb{N}$.
 2. For two elements in $U$ (let us call them $X\_1$ and $X\_2$), the intersection of those two sets must also belong to $U$, so $X\_1 \cap X\_2 \in U$.

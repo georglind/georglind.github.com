@@ -39,7 +39,7 @@ Books
 
 <!-- - ["Writing Analytically" by Rosenwasser and Stephen](http://www.amazon.co.uk/Writing-Analytically-David-Rosenwasser/dp/1285436504/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1449658310&sr=8-1&keywords=Writing+analytically) -->
 <!-- - ["In search of Hannibal"](https://in-search-of-hannibal-a-graphic-novel.backerkit.com/hosted_preorders) by Lloyd and Steininger. Pre-Order with delivery December 2017. (EUR 25). -->
-- ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style)
-- ["Rights of Man, Common Sense, and Other Political Writings" af Thomas Paine](https://www.amazon.de/Rights-Political-Writings-Classics-Paperback/dp/019953800X/ref=sr_1_1?ie=UTF8&qid=1491821734&sr=8-1&keywords=Thomas+Paine) (~ 10EUR).
+- ["Elements of Style" by Strunk and White](http://www.amazon.de/Elements-Style-E-B-White/dp/020530902X/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1447606073&sr=1-1&keywords=Elements+of+style).
+- ["Rights of Man, Common Sense, and Other Political Writings" af Thomas Paine](https://www.amazon.de/Rights-Political-Writings-Classics-Paperback/dp/019953800X/ref=sr_1_1?ie=UTF8&qid=1491821734&sr=8-1&keywords=Thomas+Paine) (EUR ~10).
 
 Or something nice. I'm sure, that you can figure it out :)
